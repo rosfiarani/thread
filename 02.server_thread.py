@@ -14,7 +14,8 @@ def start_server():
     host = "127.0.0.1"
     
     # tentukan port server
-    port = 8080
+    port = 8080 # arbitrary non-privileged port
+
 
     # buat socket bertipe TCP
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

@@ -10,7 +10,7 @@ def main():
     # tentukan IP server target
     host = "127.0.0.1"
     
-    # tentukan port server
+    # tentukan por server
     port = 8080
 
     # lakukan koneksi ke server
@@ -23,7 +23,7 @@ def main():
         # exit
         sys.exit()
     
-    # tampilkan menu, Masukkan 'quit' untuk keluar
+    # tampilkan menu, enter quit to exit
     print("Masukkan 'quit' untuk keluar")
     message = input(" -> ")
 
